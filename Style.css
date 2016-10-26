@@ -1,0 +1,40 @@
+body{margin: 0;}
+header .atas{background-color: #005CB3; padding: 1px;}
+header .atas img{height: 20px;}
+header .atas p{font-size: 15px;}
+header .atas a{text-decoration: none; color: #121212;}
+header .atas a:hover{color: #54EBFF;}
+header nav{display: flex; justify-content: center;}
+header nav ul{list-style: none; margin: 0; padding: 0;}
+header nav ul img{height: 100px; position: relative; bottom: 15px;}
+header nav ul b{font-size: 25px; bottom: 53px; position: relative;}
+header nav a{text-decoration: none; padding: 30px 30px; display: inline-block; color: #000;}
+header nav a:hover{background-color: #00E7C9; color: #121212;}
+header nav ul li li{width: 100%;}
+header nav ul ul{background-color: #00E7C9; position: absolute; visibility: hidden; opacity: 0; transition: opacity .3s ease;}
+header nav ul li:hover>ul{visibility: visible; opacity: 1;}
+header nav ul ul ul{position: absolute; left: 100%; top: 0; visibility: hidden; opacity: 0; width: 100%;}
+header nav ul li{float: left; position: relative; top: 15px;}
+section img{width: 100%; height: 500px;}
+section .pengumuman{background-color: #1A8FFF; color: #000; position: relative; bottom: 5px; padding: 13px;}
+section .pengumuman .satu{text-align: center; font-size: 25px; color: #FFF;}
+section .pengumuman .dua{text-align: center; font-size: 19px; margin: 20px; color: #FFF;}
+section .berita h1{font-size: 80px; text-align: center;}
+section .berita img{width: 50%; position: relative; left: 25%; height: 300px;}
+section .isi{width: 70%; padding: 15px; border-style: dashed;}
+section .isi .judul{text-decoration: none; font-size: 20px;}
+section .isi .read{text-decoration: none; border-style: solid; border-color: #0002CC; background-color: #1B8EFF; color: #FFF;}
+section .isi .read:hover{background-color: #4FA8FF; border-color: #00FED5; color: #0002FE;}
+section .foto h1{font-size: 80px; text-align: center;}
+section .foto .pertama{width: 50%; position: relative; left: 25%; height: 400px;}
+section .foto .kedua{width: 100%; height: 500px;}
+section table{width: 70%; text-align: center;}
+footer{background-color: #005CB3; padding: 7px 15px; position: relative; bottom: 4px;}
+footer .terakhir p{text-align: center;}
+footer .terakhir a{text-decoration: none; color: #000;}
+footer .terakhir a:hover{color: #54EBFF;}
+footer .akhir nav p{font-size: 20px; position: relative; left: 40px;}
+footer .akhir nav a{text-decoration: none; color: #000;}
+footer .akhir nav ul{list-style: none;}
+footer .akhir nav a:hover{color: #54EBFF;}
+.prodi{margin-right: 25px; margin-left: 25px;}
